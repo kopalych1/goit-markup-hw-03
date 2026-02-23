@@ -18,11 +18,13 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Header */
@@ -143,10 +145,10 @@ header.header {
   gap: 24px;
 }
 .content-section-list-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
-.content-header {
+.content-header:not(.portfolio-content-header) {
   margin-bottom: 8px;
 
   width: calc((100% - 72px) / 4);
@@ -178,6 +180,8 @@ header.header {
   padding: 120px 0 120px;
 }
 .section-team-header {
+  width: calc((100% - 72px) / 4);
+
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
@@ -231,7 +235,7 @@ header.header {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-footer > .logo-link {
+footer > div.container > .logo-link {
   display: inline-block;
   margin-bottom: 16px;
 }
