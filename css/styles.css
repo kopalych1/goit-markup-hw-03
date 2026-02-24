@@ -145,12 +145,10 @@ header.header {
   gap: 24px;
 }
 .content-section-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .content-header{
-  margin-bottom: 8px;
-
   margin-bottom: 8px;
 
   background-color: #ffffff;
