@@ -144,11 +144,11 @@ header.header {
   display: flex;
   gap: 24px;
 }
-/* .content-section-list-item {
+.section-two-list-item {
   width: calc((100% - 72px) / 4);
-} */
+}
 
-.content-header{
+.content-header {
   margin-bottom: 8px;
 
   background-color: #ffffff;
