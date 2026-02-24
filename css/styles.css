@@ -145,13 +145,13 @@ header.header {
   gap: 24px;
 }
 .content-section-list-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .content-header:not(.portfolio-content-header) {
   margin-bottom: 8px;
 
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
 
   background-color: #ffffff;
@@ -180,7 +180,7 @@ header.header {
   padding: 120px 0 120px;
 }
 .section-team-header {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 
   margin-bottom: 72px;
   font-size: 36px;
